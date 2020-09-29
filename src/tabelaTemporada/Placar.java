@@ -170,7 +170,7 @@ public class Placar {
 			this.qMax.set(j, Collections.max(this.qMax) + 1);
 		}
 		
-		if (this.qMax.get(j) != this.qMax.get(j-1)) { // se atualizar aqui (retorne ao valor anterior)
+		if (this.qMax.get(j) != this.qMax.get(j-1) && this.maxRecor.get(j) < this.maxRecor.get(j-1)) { // se atualizar aqui (retorne ao valor anterior)
 			this.qMax.set(j, this.qMin.get(j - 1));
 		} 
 		
