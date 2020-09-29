@@ -6,10 +6,10 @@
 Escrito em linguagem Java, desenvolvido para automatizar o processo de registro de dados de jogos, onde a Maria, colocava/anotava os seguintes dados:
 **▫ jogo**
 **▫ placar**
-##### ▫ Mínimo da temporada
-##### ▫ Máximo da temporada
-##### ▫ Quebra de recorde mínimo
-##### ▫ Quebra de recorde máximo
+**▫ Mínimo da temporada**
+**▫ Máximo da temporada**
+**▫ Quebra de recorde mínimo**
+**▫ Quebra de recorde máximo**
 
 Agora Maria precisará colocar apenas o placar de cada jogo, pois outras informações serão geradas automaticamente
 
@@ -62,8 +62,8 @@ final
 ---
 ## ◾ Informações finais
 
-IDE Utilizada: eclipse
-Versão do Java: JavaSE-1.8
+*IDE Utilizada: eclipse
+*Versão do Java: JavaSE-1.8
 
 Conheça a [Púbica](http://www.publica.inf.br/)
 
