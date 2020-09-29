@@ -64,7 +64,7 @@ Perceba que o código se encrontra em **src** na *package* **tabelaTemporada**
 * IDE Utilizada: eclipse
 * Versão do Java: JavaSE-1.8
 
-##### Conheça a [Púbica](http://www.publica.inf.br/)
+#### Conheça a [Púbica](http://www.publica.inf.br/)
 
 Frameworks/bibliotecas usadas:
 * *ArrayLists*
