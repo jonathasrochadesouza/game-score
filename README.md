@@ -45,6 +45,8 @@ Programa
 ```
 Perceba que o código se encrontra em **src** na *package* **tabelaTemporada**
 
+**O código possui três classes**
+
 ---
 ## ◾ Informações finais
 
