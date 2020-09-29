@@ -172,12 +172,14 @@ public class Placar {
 			this.qMin.set(j, Collections.max(this.qMax) - 1);
 		}
 		
-		if (this.placar.get(j) == Collections.min(this.placar)) {
+		// soma mais 1 aqui!
+		if (this.placar.get(j) == Collections.min(this.placar) && this.qMin.get(j) == this.qMin.get(j-1)) {
 			this.qMin.set(j, Collections.max(this.qMin) + 1);
 		}
 		
-		if (this.placar.get(j) == Collections.max(this.placar)) {
-			this.qMin.set(j, Collections.max(this.qMax) + 1);
+		// soma mais 1 aqui!
+		if (this.placar.get(j) == Collections.max(this.placar) && this.qMax.get(j) == this.qMax.get(j-1)) {
+			this.qMax.set(j, Collections.max(this.qMax) + 1);
 		}
 		
 		minRecor.set(j, Collections.min(this.placar));
