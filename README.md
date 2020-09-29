@@ -1,7 +1,6 @@
 # placar-jogo
  Desenvolvido e escrito em linguagem Java, para automatizar uma tabela de temporada de basquete que recebe a inserção de resultados de jogos (placar) - (desafio/teste) [Leia o README]
 
----
 ## Sobre o desenvolvimento
 
 Escrito em linguagem Java, desenvolvido para automatizar o processo de registro de dados de jogos, onde a Maria, colocava/anotava os seguintes dados:
