@@ -19,11 +19,11 @@ Agora Maria precisará colocar apenas o placar de cada jogo, pois outras informa
 
 Abrindo o Programa na IDE desejada
 ```
-* Crie uma pasta com o nome que desejar
-* Salve todos os arquivos nesta pasta criada com o nome desejado
-* Com sua IDE aberta abra a pasta criada com os arquivos como um projeto (IntelliJ, NetBeans, Eclipse...)
-* Caso seja necessário, importe as bibliotecas
-* Com todos os passos anteriores corretos basta depurar/executar o código no terminal
+* Crie uma pasta com o nome que desejar;
+* Salve todos os arquivos nesta pasta criada com o nome desejado;
+* Com sua IDE aberta abra a pasta criada com os arquivos como um projeto (IntelliJ, NetBeans, Eclipse...);
+* Caso seja necessário, importe as bibliotecas;
+* Com todos os passos anteriores corretos basta depurar/executar o código no terminal;
 ```
 
 Caminho
@@ -45,8 +45,20 @@ Programa
 ```
 Perceba que o código se encrontra em **src** na *package* **tabelaTemporada**
 
-**O código possui três classes**
+*O código possui três classes*
+* Uma classe que possui o **Main**
+* Uma classe que possui os **métodos...**
+* Uma classe de teste, através do **JUnit**
 
+
+*Como rodar os testes*
+```
+* Com o projeto aberto selecione a classe "TesteUnit.java";
+* Depure esta classe (classe "TesteUnit.java");
+* Pelos comentários verifique o que exatamente o que está sendo testado;
+* Com todos os testes entendidos e verificados, tudo ok!
+```
+final
 ---
 ## ◾ Informações finais
 
@@ -56,7 +68,9 @@ Versão do Java: JavaSE-1.8
 Conheça a [Púbica](http://www.publica.inf.br/)
 
 Frameworks/bibliotecas usadas:
-ArrayLists
-Collections
-JUnit
+* *ArrayLists*
+* *Collections*
+* *JUnit*
 ...
+
+***Desenvolvido por Jonathas Rocha de Souza***
