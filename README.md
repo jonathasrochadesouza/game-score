@@ -2,15 +2,15 @@
  Desenvolvido e escrito em linguagem Java, para automatizar uma tabela de temporada de basquete que recebe a inserção de resultados de jogos (placar) - (desafio/teste) [Leia o README]
 
 ---
-#### Sobre o desenvolvimento
+## Sobre o desenvolvimento
 
 Escrito em linguagem Java, desenvolvido para automatizar o processo de registro de dados de jogos, onde a Maria, colocava/anotava os seguintes dados:
-#####▫ jogo
-#####▫ placar
-#####▫ Mínimo da temporada
-#####▫ Máximo da temporada
-#####▫ Quebra de recorde mínimo
-#####▫ Quebra de recorde máximo
+##### ▫ jogo
+##### ▫ placar
+##### ▫ Mínimo da temporada
+##### ▫ Máximo da temporada
+##### ▫ Quebra de recorde mínimo
+##### ▫ Quebra de recorde máximo
 
 Agora, com este programa ela precisará colocar apenas o placar de cada jogo, pois as outras informações serão geradas automaticamente a partir do placar dos jogos
 
@@ -18,7 +18,7 @@ abaixo um exemplo de como o programa ficou no terminal da IDE:
 ![ Rodando o Programa](https://github.com/jonathasrochadesouza/placar-jogo/blob/master/run_program.gif)
 
 ---
-#### Depuração, cuidados e caminho
+## Depuração, cuidados e caminho
 
 Abrindo o Programa na IDE desejada
 * Crie uma pasta com o nome que desejar;
@@ -35,7 +35,7 @@ Caminho
 
 
 ---
-#### Sobre o Desenvolvimento
+## Sobre o Desenvolvimento
 
 IDE Utilizada: eclipse
 Versão do Java: JavaSE-1.8
