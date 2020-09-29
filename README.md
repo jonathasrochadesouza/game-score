@@ -47,7 +47,7 @@ Perceba que o código se encrontra em **src** na *package* **tabelaTemporada**
 
 *O código possui três classes*
 * Uma classe que possui o **Main**
-* Uma classe que possui os **métodos...**
+* Uma classe que possui os **Métodos...**
 * Uma classe de teste, através do **JUnit**
 
 
@@ -55,7 +55,7 @@ Perceba que o código se encrontra em **src** na *package* **tabelaTemporada**
 ```
 * Com o projeto aberto selecione a classe "TesteUnit.java";
 * Depure esta classe (classe "TesteUnit.java");
-* Pelos comentários verifique o que exatamente o que está sendo testado;
+* Pelos comentários verifique exatamente o que está sendo testado;
 * Com todos os testes entendidos e verificados, tudo ok!
 ```
 final
