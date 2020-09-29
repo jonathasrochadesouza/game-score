@@ -11,7 +11,7 @@ Escrito em linguagem Java, desenvolvido para automatizar o processo de registro 
 ##### ▫ Quebra de recorde mínimo
 ##### ▫ Quebra de recorde máximo
 
-Agora, Maria precisará colocar apenas o placar de cada jogo, pois as outras informações serão geradas automaticamente a partir do placar dos jogos
+Agora Maria precisará colocar apenas o placar de cada jogo, pois outras informações serão geradas automaticamente
 
 ![ Rodando o Programa](https://github.com/jonathasrochadesouza/placar-jogo/blob/master/run_program.gif)
 
