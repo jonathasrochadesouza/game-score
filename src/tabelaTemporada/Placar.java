@@ -166,21 +166,24 @@ public class Placar {
 		
 		if (this.qMin.get(j) != this.qMin.get(j-1)) { // se atualizar aqui (subtraia 1)
 			this.qMin.set(j, Collections.max(this.qMin) - 1);
+		} else if (this.maxRecor.get(j) == this.maxRecor.get(j-1)) { // se atualizar aqui (some 1)
+			this.qMax.set(j, Collections.max(this.qMax) + 1);
 		}
 		
-		if (this.qMax.get(j) != this.qMax.get(j-1)) { // se atualizar aqui (subtraia 1)
-			this.qMin.set(j, Collections.max(this.qMax) - 1);
-		}
+		if (this.qMax.get(j) != this.qMax.get(j-1)) { // se atualizar aqui (retorne ao valor anterior)
+			this.qMax.set(j, this.qMin.get(j - 1));
+		} 
 		
 		// soma mais 1 aqui!
 		if (this.placar.get(j) == Collections.min(this.placar) && this.qMin.get(j) == this.qMin.get(j-1)) {
 			this.qMin.set(j, Collections.max(this.qMin) + 1);
 		}
-		
+		/*
 		// soma mais 1 aqui!
 		if (this.placar.get(j) == Collections.max(this.placar) && this.qMax.get(j) == this.qMax.get(j-1)) {
 			this.qMax.set(j, Collections.max(this.qMax) + 1);
 		}
+		*/
 		
 		minRecor.set(j, Collections.min(this.placar));
 		maxRecor.set(j, Collections.max(this.placar));
