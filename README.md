@@ -18,7 +18,7 @@ Agora Maria precisará colocar apenas o placar de cada jogo, pois outras informa
 ## ◾ Depuração, cuidados e caminho
 
 Abrindo o Programa na IDE desejada
-```bash
+```
 * Crie uma pasta com o nome que desejar
 * Salve todos os arquivos nesta pasta criada com o nome desejado
 * Com sua IDE aberta abra a pasta criada com os arquivos como um projeto (IntelliJ, NetBeans, Eclipse...)
@@ -27,10 +27,26 @@ Abrindo o Programa na IDE desejada
 ```
 
 Caminho
-
+```
+Programa
+├── README.md
+├── .classpath
+├── .gitattributes
+├── .project
+├── src
+|   └── tabelaTemporada
+│       ├── Placar.java
+│       ├── PlacarMain.java
+│       └── TesteUnit.java
+├── .settings
+|   └── ...
+└── .settings
+    └──...
+```
+Perceba que o código se encrontra em **src** na *package* **tabelaTemporada**
 
 ---
-## ◾ Sobre o Desenvolvimento
+## ◾ Informações finais
 
 IDE Utilizada: eclipse
 Versão do Java: JavaSE-1.8
