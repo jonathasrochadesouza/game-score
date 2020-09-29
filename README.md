@@ -62,10 +62,10 @@ final
 ---
 ## ◾ Informações finais
 
-*I DE Utilizada: eclipse
+* IDE Utilizada: eclipse
 * Versão do Java: JavaSE-1.8
 
-Conheça a [Púbica](http://www.publica.inf.br/)
+###### Conheça a [Púbica](http://www.publica.inf.br/)
 
 Frameworks/bibliotecas usadas:
 * *ArrayLists*
