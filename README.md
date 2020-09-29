@@ -4,8 +4,8 @@
 ## ◾ Sobre o desenvolvimento
 
 Escrito em linguagem Java, desenvolvido para automatizar o processo de registro de dados de jogos, onde a Maria, colocava/anotava os seguintes dados:
-##### ▫ jogo
-##### ▫ placar
+**▫ jogo**
+**▫ placar**
 ##### ▫ Mínimo da temporada
 ##### ▫ Máximo da temporada
 ##### ▫ Quebra de recorde mínimo
