@@ -58,9 +58,8 @@ Perceba que o código se encrontra em **src** na *package* **tabelaTemporada**
 * Pelos comentários verifique exatamente o que está sendo testado;
 * Com todos os testes entendidos e verificados, tudo ok!
 ```
-final
+◾ Informações finais
 ---
-## ◾ Informações finais
 
 * IDE Utilizada: eclipse
 * Versão do Java: JavaSE-1.8
