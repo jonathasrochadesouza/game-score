@@ -14,13 +14,11 @@ Escrito em linguagem Java, desenvolvido para automatizar o processo de registro 
 
 Agora, com este programa ela precisará colocar apenas o placar de cada jogo, pois as outras informações serão geradas automaticamente a partir do placar dos jogos
 
-abaixo um exemplo de como o programa ficou no terminal da IDE:
-![ Rodando o Programa](https://github.com/jonathasrochadesouza/placar-jogo/blob/master/run_program.gif)
-
 ---
 ## Depuração, cuidados e caminho
 
 Abrindo o Programa na IDE desejada
+```bash
 * Crie uma pasta com o nome que desejar;
 * Salve todos os arquivos do projeto nesta pasta criada com o nome desejado;
 * Com sua IDE aberta abra a pasta criada com os arquivos como um projeto do Java (IntelliJ, NetBeans, Eclipse...);
@@ -28,9 +26,9 @@ Abrindo o Programa na IDE desejada
 * Com todos os passos anteriores corretos basta depurar/executar o código no terminal;
 Veja o exemplo abaixo
 
-abaixo um exemplo de como o programa ficou no terminal da IDE:
+Abaixo o programa no terminal:
 ![ Rodando o Programa](https://github.com/jonathasrochadesouza/placar-jogo/blob/master/run_program.gif)
-
+```
 Caminho
 
 
