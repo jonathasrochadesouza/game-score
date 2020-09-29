@@ -25,9 +25,7 @@ Abrindo o Programa na IDE desejada
 * Caso seja necessário, importe as bibliotecas
 * Com todos os passos anteriores corretos basta depurar/executar o código no terminal
 ```
-Veja o exemplo abaixo
-
-Abaixo o programa no terminal:
+Programa no terminal:
 ![ Rodando o Programa](https://github.com/jonathasrochadesouza/placar-jogo/blob/master/run_program.gif)
 
 Caminho
