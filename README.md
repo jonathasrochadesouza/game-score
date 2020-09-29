@@ -19,16 +19,17 @@ Agora, com este programa ela precisará colocar apenas o placar de cada jogo, po
 
 Abrindo o Programa na IDE desejada
 ```bash
-* Crie uma pasta com o nome que desejar;
-* Salve todos os arquivos do projeto nesta pasta criada com o nome desejado;
-* Com sua IDE aberta abra a pasta criada com os arquivos como um projeto do Java (IntelliJ, NetBeans, Eclipse...);
-* Caso seja necessário, importe as bibliotecas;
-* Com todos os passos anteriores corretos basta depurar/executar o código no terminal;
+* Crie uma pasta com o nome que desejar
+* Salve todos os arquivos nesta pasta criada com o nome desejado
+* Com sua IDE aberta abra a pasta criada com os arquivos como um projeto (IntelliJ, NetBeans, Eclipse...)
+* Caso seja necessário, importe as bibliotecas
+* Com todos os passos anteriores corretos basta depurar/executar o código no terminal
+```
 Veja o exemplo abaixo
 
 Abaixo o programa no terminal:
 ![ Rodando o Programa](https://github.com/jonathasrochadesouza/placar-jogo/blob/master/run_program.gif)
-```
+
 Caminho
 
 
