@@ -62,8 +62,8 @@ final
 ---
 ## ◾ Informações finais
 
-*IDE Utilizada: eclipse
-*Versão do Java: JavaSE-1.8
+*I DE Utilizada: eclipse
+* Versão do Java: JavaSE-1.8
 
 Conheça a [Púbica](http://www.publica.inf.br/)
 
