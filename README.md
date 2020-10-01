@@ -40,7 +40,7 @@ Programa
 │       └── TesteUnit.java
 ├── .settings
 |   └── ...
-└── .settings
+└── bin
     └──...
 ```
 Perceba que o código se encrontra em **src** na *package* **tabelaTemporada**
