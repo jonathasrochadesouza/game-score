@@ -66,7 +66,8 @@ Perceba que o código se encrontra em **src** na *package* **tabelaTemporada**
 
 #### Conheça a [Púbica](http://www.publica.inf.br/)
 
-Frameworks/bibliotecas usadas:
+technologies and Frameworks/libraries:
+* *Java*
 * *ArrayLists*
 * *Collections*
 * *JUnit*
