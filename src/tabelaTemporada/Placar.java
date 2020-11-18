@@ -2,21 +2,20 @@ package tabelaTemporada;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
 public class Placar {
 	private int qtdQuebrasMin; // quantidade de quebras de recorde
 	private int qtdQuebrasMax; // quantidade de quebras de recorde
-	private int qualJogo; // salva o jogo passado no 'Main', na opÁ„o de editar o placar
-	private int valorMin; // valor minÌmo
-	private int valorMax; // valor m·ximo
+	private int qualJogo; // salva o jogo passado no 'Main', na op√ß√£o de editar o placar
+	private int valorMin; // valor min√≠mo
+	private int valorMax; // valor m√°ximo
 	// private int lastValue;
 	
 	private ArrayList<Integer> jogo = new ArrayList<>(); // jogo
 	private ArrayList<Integer> placar = new ArrayList<>(); // placar
-	private ArrayList<Integer> minRecor = new ArrayList<>(); // recorde minÌmo
-	private ArrayList<Integer> maxRecor = new ArrayList<>(); // recorde m·ximo
-	private ArrayList<Integer> qMin = new ArrayList<>(); // qtd de quebras de recorde minÌmo
-	private ArrayList<Integer> qMax = new ArrayList<>(); // qtd de quebras de recorde m·ximo
+	private ArrayList<Integer> minRecor = new ArrayList<>(); // recorde min√≠mo
+	private ArrayList<Integer> maxRecor = new ArrayList<>(); // recorde m√°ximo
+	private ArrayList<Integer> qMin = new ArrayList<>(); // qtd de quebras de recorde min√≠mo
+	private ArrayList<Integer> qMax = new ArrayList<>(); // qtd de quebras de recorde m√°ximo
 	private ArrayList<Integer> id = new ArrayList<>(); // id -- faz a contagem de jogos cadastrados
 	
 	public Placar() {
@@ -33,7 +32,7 @@ public class Placar {
 		// valorMax = 24;
 	}
 	
-	// jogos j· definidos
+	// jogos j√° definidos
 	private void jogosInicio() {
 		for (int i = 0; i < 4; i++) {
 			this.jogo.add(i+1);
@@ -41,7 +40,7 @@ public class Placar {
 		}
 	}
 	
-	// placar  j· definido
+	// placar  j√° definido
 	private void placarIncio() {
 		this.placar.add(12);
 		this.placar.add(24);
@@ -51,24 +50,24 @@ public class Placar {
 		
 		for (int i = 0; i < 4; i++) {
 			if (i == 0) {
-				valorMin = this.placar.get(0); // minÌmo inicia com primeiro valro
+				valorMin = this.placar.get(0); // min√≠mo inicia com primeiro valro
 			} if (this.placar.get(i) < Collections.min(this.placar)) { // this.placar.get(i) < Collections.min(this.placar)
 				valorMin = placar.get(i);
-				qtdQuebrasMin++; // acrescenta 1 a quebra de recordes minÌmo
+				qtdQuebrasMin++; // acrescenta 1 a quebra de recordes min√≠mo
 			}
 		}
 		
 		for (int i = 0; i < 4; i++) {
 			if (i == 0) {
-				valorMax = this.placar.get(0); // m·ximo inicia com primeiro valro
+				valorMax = this.placar.get(0); // m√°ximo inicia com primeiro valro
 			} if (this.placar.get(i) > Collections.max(this.placar)) {
 				valorMax = placar.get(i);
-				qtdQuebrasMax++; // acrescenta 1 a quebra de recordes m·ximo
+				qtdQuebrasMax++; // acrescenta 1 a quebra de recordes m√°ximo
 			}
 		}
 	}
 	
-	// quantidade de quebras de recorde  j· definido
+	// quantidade de quebras de recorde  j√° definido
 	private void recordeMinInicio() {
 		this.qMin.add(0);
 		this.qMin.add(0);
@@ -76,7 +75,7 @@ public class Placar {
 		this.qMin.add(1);
 	}
 		
-	// quantidade de quebras de recorde  j· definido
+	// quantidade de quebras de recorde  j√° definido
 	private void recordeMaxInicio() {
 		this.qMax.add(0);
 		this.qMax.add(1);
@@ -84,7 +83,7 @@ public class Placar {
 		this.qMax.add(1);
 	}
 	
-	// valores minÌmos na temporada
+	// valores min√≠mos na temporada
 	private void valoresMinInicio() {
 		this.minRecor.add(12);
 		this.minRecor.add(12);
@@ -92,7 +91,7 @@ public class Placar {
 		this.minRecor.add(10);
 	}
 		
-	// valores m·ximo na temporada
+	// valores m√°ximo na temporada
 	private void valoresMaxInicio() {
 		this.maxRecor.add(12);
 		this.maxRecor.add(24);
@@ -105,9 +104,9 @@ public class Placar {
 		System.out.println("\nMaria, escolha o que deseja:\n");
 		System.out.println("1 - Atualizar novo placar;");
 		System.out.println("2 - Consultar tabela atual;");
-		System.out.println("3 - Editar ˙ltimo placar;");
+		System.out.println("3 - Editar √∫ltimo placar;");
 		System.out.println("4 - Sair.");
-		System.out.print("\nDigite a opÁ„o desejada: ");
+		System.out.print("\nDigite a op√ß√£o desejada: ");
 	}
 
 	// adiciona novo placar
@@ -116,14 +115,14 @@ public class Placar {
 		
 		// qtdQuebrasMin = qtdQuebrasMin +1; 
 		
-		// valor minÌmo
+		// valor min√≠mo
 		if  (Collections.min(this.placar) < Collections.min(this.minRecor)) {
 			this.qMin.add(Collections.max(this.qMin)+1);
 		} else {
 			this.qMin.add(Collections.max(this.qMin));
 		}
 
-		// valor m·ximo
+		// valor m√°ximo
 		if  (Collections.max(this.placar) > Collections.max(this.maxRecor)) {
 			this.qMax.add(Collections.max(this.qMax)+1);
 		} else {
@@ -133,11 +132,11 @@ public class Placar {
 		minRecor.add(Collections.min(this.placar));
 		maxRecor.add(Collections.max(this.placar));
 		
-		this.jogo.add(jogo.size()+1); // sempre que este mÈtodo for chamado adiciona mais 1 ao "jogo"
-		this.id.add(id.size()); // sempre que este mÈtodo for chamado adiciona mais 1 ao "id" 
+		this.jogo.add(jogo.size()+1); // sempre que este m√©todo for chamado adiciona mais 1 ao "jogo"
+		this.id.add(id.size()); // sempre que este m√©todo for chamado adiciona mais 1 ao "id" 
 	}
 	
-	// Qual ser· o prÛximo jogo? se ouver!
+	// Qual ser√° o pr√≥ximo jogo? se ouver!
 	public int nextJogo() {
 		return id.size() + 1;
 	}
@@ -157,12 +156,12 @@ public class Placar {
 		return quebraMax() + quebraMin();
 	}
 	
-	// editar placar do ˙ltimo jogo
+	// editar placar do √∫ltimo jogo
 	public void setEditar(int j /*jogo*/, int p /*placar*/) {
 		
 		this.placar.set(j, p);
 		
-		// atualizaÁıes
+		// atualiza√ß√µes
 		
 		if (this.qMin.get(j) != this.qMin.get(j-1)) { // se atualizar aqui (subtraia 1)
 			this.qMin.set(j, Collections.max(this.qMin) - 1);
@@ -200,14 +199,14 @@ public class Placar {
 		return Collections.max(this.jogo);
 	}
 	
-	// qual jogo ser· editado (˙ltimo jogo)
+	// qual jogo ser√° editado (√∫ltimo jogo)
 	public int getQualJogo() {
 		return this.placar.size() - 1;
 	}
 	
 	// tabela
 	public void getPlacar() {
-		System.out.printf("%n%6s%18s%20s%20s%20s%20s%n", "Jogo", "Placar", "Temporada(MÌn)", "Temporada(M·x)", "Recorde(MÌn)", " Recorde(M·x)");
+		System.out.printf("%n%6s%18s%20s%20s%20s%20s%n", "Jogo", "Placar", "Temporada(M√≠n)", "Temporada(M√°x)", "Recorde(M√≠n)", " Recorde(M√°x)");
 		for(int i = 0; i < jogo.size(); i++) {
 			System.out.printf("%n%6d", jogo.get(i));
 			System.out.printf("%20d", placar.get(i));
@@ -217,20 +216,20 @@ public class Placar {
 			System.out.printf("%31d", qMax.get(i));
 			// System.out.println("\n");
 		}
-		System.out.println("\n\nDescriÁ„o: ");
+		System.out.println("\n\nDescri√ß√£o: ");
 		
 		// plural ou singular! (max)
 		if (this.quebraMax() > 1) {
-			System.out.println("Quebras no recorde m·ximo: " + quebraMax() + " vezes");
+			System.out.println("Quebras no recorde m√°ximo: " + quebraMax() + " vezes");
 		} else {
-			System.out.println("Quebra no recorde m·ximo: " + quebraMax() + " vez");
+			System.out.println("Quebra no recorde m√°ximo: " + quebraMax() + " vez");
 		}
 		
 		// plural ou singular! (min)
 		if (this.quebraMin() > 1) {
-			System.out.println("Quebras no recorde mÌnimo: " + quebraMin() + " vezes");
+			System.out.println("Quebras no recorde m√≠nimo: " + quebraMin() + " vezes");
 		} else {
-			System.out.println("Quebra no recorde mÌnimo: " + quebraMin() + " vez");
+			System.out.println("Quebra no recorde m√≠nimo: " + quebraMin() + " vez");
 		}
 		
 		// plural ou singular! (min)
@@ -251,7 +250,7 @@ public class Placar {
 		return this.placar.size();
 	}
 	
-	// retorna a quantidade de quebras(MÌn)
+	// retorna a quantidade de quebras(M√≠n)
 	public int testeQtdQuebrasMin() {
 		return this.qMin.size();
 	}
@@ -261,12 +260,12 @@ public class Placar {
 		return this.qMax.size();
 	}
 	
-	// retorna o valor m·ximo do placar
+	// retorna o valor m√°ximo do placar
 	public int testeQtdPlacarMax() {
 		return Collections.max(this.placar);
 	}
 	
-	// retorna o valor mÌnimo do placar
+	// retorna o valor m√≠nimo do placar
 	public int testeQtdPlacarMin() {
 		return Collections.min(this.placar);
 	}
@@ -281,7 +280,7 @@ public class Placar {
 		return Collections.min(this.minRecor);
 	}
 		
-	public void teste() { // mÈtodo de testes
+	public void teste() { // m√©todo de testes
 		for (int i = 0; i < this.id.size(); i++) {
 			// System.out.print(this.jogo.get(i) + " ");
 			// System.out.print(this.id.get(i) + " ");
