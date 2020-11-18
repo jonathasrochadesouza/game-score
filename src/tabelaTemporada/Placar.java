@@ -2,6 +2,7 @@ package tabelaTemporada;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
 public class Placar {
 	private int qtdQuebrasMin; // quantidade de quebras de recorde
 	private int qtdQuebrasMax; // quantidade de quebras de recorde
