@@ -1,7 +1,5 @@
 # placar-jogo
  Desenvolvido e escrito em linguagem Java, para automatizar uma tabela de temporada de basquete que recebe a inserção de resultados de jogos (placar) - (desafio/teste) [Leia o README]
- 
- ![Capa+Igtv_VivendoJesus](https://user-images.githubusercontent.com/62067474/99468681-d6d5e880-291f-11eb-971f-5a45db1f97e9.png)
 
 ## ◾ Sobre o desenvolvimento
 
