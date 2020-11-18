@@ -1,8 +1,10 @@
 /*
  	
  	Desenvolvido por Jonathas Rocha de Souza;
- 	Para o Teste Prático lançado pela Pública, feito com muito carinho, capricho e qualidade, com base em meus conhecimentos :)
- 	link da empresa - http://publicainformatica.com.br/
+ 	Para o Teste PrÃ¡tico lanÃ§ado pela PÃºblica, feito com muito carinho, capricho e qualidade, com base em meus conhecimentos :)
+	
+ 	link da empresa 
+	http://publicainformatica.com.br/
  	
  	linkedin
  	https://www.linkedin.com/in/jonathasrochadesouza/
@@ -42,12 +44,12 @@ public class PlacarMain {
 					if (readInt > 0 && readInt <=1000) {
 						acess.setPlacar(readInt);
 					} else {
-						System.out.println("Algo deu errado! Maria, você deve ter digitado errado, por favor, digite novamente o placar"); 
+						System.out.println("Algo deu errado! Maria, vocÃª deve ter digitado errado, por favor, digite novamente o placar"); 
 					}
 				} while (readInt< 0 || readInt >1000);
 			break;
 			
-			// mostrar o placar até o momento
+			// mostrar o placar atÃ© o momento
 			case 2:
 				// acess.teste();
 				acess.getPlacar();
@@ -58,18 +60,18 @@ public class PlacarMain {
 				do {
 					int jogo = acess.getQualJogo();
 					
-					// jogo pré-definido?
+					// jogo prÃ©-definido?
 					if (jogo <= 3) {
-						System.out.println("Os jogos 1, 2, 3 e 4 não podem ser editados, pois já estão definidos como base no sistema");
+						System.out.println("Os jogos 1, 2, 3 e 4 nÃ£o podem ser editados, pois jÃ¡ estÃ£o definidos como base no sistema");
 						break;
 					}
 					
 					System.out.printf("\nQual foi o placar do jogo " + (jogo+1) + "?   ");
 					readInt = ler.nextInt();
 					if (readInt > 0 && readInt < 1000) {
-							acess.setEditar(jogo, readInt); // onde o jogo é editado
+							acess.setEditar(jogo, readInt); // onde o jogo Ã© editado
 					} else {
-						System.out.println("Algo deu errado! Maria, você deve ter digitado errado, por favor, digite novamente o placar"); 
+						System.out.println("Algo deu errado! Maria, vocÃª deve ter digitado errado, por favor, digite novamente o placar"); 
 					}
 				} while (readInt< 0 || readInt >1000);
 			break;
@@ -78,9 +80,9 @@ public class PlacarMain {
 			
 			default:
 				if (op == 4) {
-					System.out.println("\nVocê escolheu: Sair!\nObrigado por usar nosso sistema Maria :)");
+					System.out.println("\nVocÃª escolheu: Sair!\nObrigado por usar nosso sistema Maria :)");
 				} else {
-					System.out.println("Opção Inválida! Por favor, escolha uma opção válida");
+					System.out.println("OpÃ§Ã£o InvÃ¡lida! Por favor, escolha uma opÃ§Ã£o vÃ¡lida");
 				}
 			break;
 			}
