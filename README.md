@@ -68,7 +68,7 @@ Perceba que o código se encrontra em **src** na *package* **tabelaTemporada**
 
 #### Conheça a [Púbica](http://www.publica.inf.br/)
 
-technologies and Frameworks/libraries:
+Técnologias, bibliotecas e frameworks:
 * *Java 1.8*
 * *ArrayLists*
 * *Collections*
