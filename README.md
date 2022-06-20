@@ -15,7 +15,7 @@ Escrito em linguagem Java, desenvolvido para automatizar o processo de registro 
 
 Agora Maria precisará colocar apenas o placar de cada jogo, pois outras informações serão geradas automaticamente
 
-![ Rodando o Programa](https://github.com/jonathasrochadesouza/placar-jogo/blob/master/run_program.gif)
+![](https://github.com/jonathasrochadesouza/placar-jogo/blob/master/run_program.gif)
 
 ## ◾ Depuração, cuidados e caminho
 
